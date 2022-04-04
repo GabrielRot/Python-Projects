@@ -1,0 +1,5 @@
+vAltura = int(input('Digite a Altura da Parede:'))
+vLargura = int(input('Digite a Largura da Parede:'))
+vArea = (vAltura * vLargura)
+vTinta = (vArea * 2)
+print ('A area da sua parede total é de {}m², então voçê vai precisar de {} Litros de Tinta.'.format(vArea,vTinta))

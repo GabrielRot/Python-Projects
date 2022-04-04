@@ -1,0 +1,6 @@
+vNum1 = int(input('Digite um Valor:'))
+vAnt = (vNum1 - 1)
+vSuc = (vNum1 + 1)
+#print('O antecessor de {} é {}, o sucessor de {} é {}'.format(vNum1,vAnt,vNum1,vSuc))
+print('O antecessor de {} é {}'.format(vNum1,vNum1 - 1),end=', ')
+print('o sucessor de {} é {}'.format(vNum1,vNum1 + 1))

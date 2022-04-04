@@ -1,0 +1,8 @@
+vDias = float(input('Digite Quantos Dias o Carro Foi Alugado:'))
+vKM = float(input('Digite Quantos Km o Carro Percorreu:'))
+vValorDias = (vDias * 60)
+vValorKm = (vKM * 0.15)
+vTotal = (vValorDias + vValorKm)
+print ('O valor Total de Km Percorrido é de {:.2f}R$'.format(vValorKm))
+print ('o Valor Total de Dias Alugados é de {:.2f}R$'.format(vValorDias))
+print ('Então o Valor Total a Pagar é de {:.2f}R$'.format(vTotal))

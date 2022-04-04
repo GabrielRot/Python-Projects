@@ -1,0 +1,8 @@
+vNum1 = int(input('Digite um Valor:'))
+vDbl = (vNum1 * 2)
+vTpl = (vNum1 * 3)
+vRaiz = (vNum1 ** (1/2))
+#print('O dobro de {} é {}, o triplo de {} é {}, a raiz quadrada de {} é {}'.format(vNum1,vDbl,vNum1,vTpl,vNum1,vRaiz))
+print('O dobro de {} é {}'.format(vNum1,vNum1 * 2),end=', ')
+print('O triplo de {} é {}'.format(vNum1,vNum1 * 3),end=', ')
+print('A raiz quadrada de {} é {:.2f}'.format(vNum1,vNum1 ** (1/2)))

@@ -1,0 +1,5 @@
+vMetros = int(input('Digite um Valor em Metros:'))
+vCenti = (vMetros * 100)
+vMilicent = (vCenti * 100)
+print ('O valor de {} metros em centimetros é {}cm'.format(vMetros,vCenti),end=', ')
+print('O valor de {} centimetros em milicentimetros é {}mcm'.format(vCenti,vMilicent))

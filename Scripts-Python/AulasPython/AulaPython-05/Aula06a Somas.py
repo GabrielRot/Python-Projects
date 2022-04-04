@@ -1,0 +1,6 @@
+vNum1 = int(input('Digite um Valor:'))
+vNum2 = int(input('Digite o segundo Valor:'))
+vRes  = (vNum1 + vNum2)
+#print ('A soma entra',(vNum1),'e',(vNum2),'é',(vRes))
+#print ('A soma entre {}'.format(vNum1),'e {}'.format(vNum2),'é igual a {}'.format(vRes))
+print ('A soma entre {} e {} é {}'.format(vNum1,vNum2,vRes))
